@@ -1,0 +1,12 @@
+#Conda Virtual Environment Not showing up in VS Code Terminal
+1.Goto workspace settings.json
+2.paste it in that dictionary and save it
+
+
+{
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+  "terminal.integrated.shellArgs.windows": [
+    "/K",
+    "C:\\ProgramData\\Anaconda3\\Scripts\\activate.bat C:\\ProgramData\\Anaconda3"
+  ]
+}
