@@ -13,3 +13,5 @@
 2."terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
    "python.venvPath": "C:\\Users\\Pritam\\Desktop\\vscode\\penv", # in workspace settings( Because of this every new terminal is a cmd not powershell)
                                                                   # automatically shows (base)
+
+python.terminal.activateEnvironment": true,
