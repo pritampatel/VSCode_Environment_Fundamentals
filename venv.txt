@@ -7,6 +7,8 @@
 1. open powershell in administrator and paste the command and choose 'A'
 # Set-ExecutionPolicy Unrestricted -Scope Process
 
+2."python.pythonPath": "C:\\Users\\Pritam\\Desktop\\SA_model_deployment\\maaenv\\Scripts\\python", Try this First
+
 2."terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
    "python.venvPath": "C:\\Users\\Pritam\\Desktop\\vscode\\penv", # in workspace settings( Because of this every new terminal is a cmd not powershell)
                                                                   # automatically shows (base)
